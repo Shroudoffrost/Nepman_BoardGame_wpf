@@ -1,0 +1,95 @@
+﻿<UserControl x:Class="Nepman_BoardGame.Views.Tile_detailed"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Nepman_BoardGame.Views"
+             xmlns:models="clr-namespace:Nepman_BoardGame.ViewModels"
+             mc:Ignorable="d" Height="303" Width="303"
+             BorderThickness="6" BorderBrush="#334847">
+    
+    <UserControl.Background>
+        <ImageBrush ImageSource="/Assets/Countries/Background/Airport_unedited_2.PNG"/>
+    </UserControl.Background>
+        
+    
+    <Grid TextElement.FontSize="32"
+          TextElement.FontWeight="Bold">
+         
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- TODO: create binding to make the control generic -->
+
+        <TextBlock Name="Group_name_another"  Grid.Row="0"
+                   TextAlignment="Center"
+                   Text="Аэропорт"
+                   Foreground="#FF000AA7"/>
+
+        <TextBlock Name="Country_name" Grid.Row="1"
+                   TextAlignment="Center" VerticalAlignment="Bottom"
+                   Text="Австралия"
+                   Foreground="#FF610000"/>
+
+        <Grid Name="Country_info_block" Grid.Row="2"
+              Margin="7,15,7,10"
+              Visibility="Visible"
+              Background="White">
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="6*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Name="Flag" Grid.Column="0" Margin="3"
+                   Source="/Assets/Countries/Flags/Australia.png" />
+
+            <Grid Name="Figures" Grid.Column="1"
+                  TextElement.FontSize="21">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <TextBlock Name="Price_base" Grid.Row="0" Grid.Column="0"
+                           Width="75" Height="27"
+                           TextAlignment="Center"
+                           Text="25000"
+                           HorizontalAlignment="Center" VerticalAlignment="Center"
+                           Background="BlanchedAlmond"/>
+
+                <TextBlock Name="Revenue_base" Grid.Column="1"
+                           Width="75" Height="27"
+                           TextAlignment="Center"
+                           Text="5000"
+                           HorizontalAlignment="Center" VerticalAlignment="Center"
+                           Background="BlanchedAlmond"/>
+
+                <TextBlock Name="Price_monopoly" Grid.Row="1" Grid.Column="0"
+                           Width="75" Height="27"
+                           TextAlignment="Center"
+                           Text="50000"
+                           HorizontalAlignment="Center" VerticalAlignment="Center"
+                           Background="#FF8ECDCE"/>
+
+                <TextBlock Name="Revenue_monopoly" Grid.Row="1" Grid.Column="1"
+                           Width="75" Height="27"
+                           TextAlignment="Center"
+                           Text="10000"
+                           HorizontalAlignment="Center" VerticalAlignment="Center"
+                           Background="#FF8ECDCE"/>
+
+            </Grid>
+
+        </Grid>
+    </Grid>
+</UserControl>

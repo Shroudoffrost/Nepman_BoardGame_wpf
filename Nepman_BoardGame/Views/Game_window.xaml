@@ -1,0 +1,53 @@
+﻿<Window x:Class="Nepman_BoardGame.Views.Game_window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Views="clr-namespace:Nepman_BoardGame.Views"
+        xmlns:ViewModels="clr_namespace:Nepman_BoardGame.ViewModels"
+        mc:Ignorable="d"
+        Title="Nepman" Height="950" Width="1550"
+        ResizeMode="NoResize"
+        WindowStyle="ThreeDBorderWindow">
+    <Window.Background>
+        <ImageBrush ImageSource="/Views/Main_backgroud.png"/>
+    </Window.Background>
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="1250"/>
+        </Grid.ColumnDefinitions>
+
+        <Views:Button_panel Grid.Column="0" Height="600" Width="250"
+                            Visibility="Hidden"/>
+        
+        <Views:Welcome_View Grid.Column="1" Margin="25,0,25,0"
+                            Panel.ZIndex="2"
+                            Width="1200" Height="800"
+                            Visibility="Visible"/>
+
+        <Views:Full_view Grid.Column="1" Margin="25,0,25,0"
+                         Width="1200" Height="800"
+                         Visibility="Hidden"/>
+
+
+        <Views:Tile_view_X_junction Width="1200" Height="800" Grid.Column="1"
+                                    Margin="25,0,25,0"
+                                    Visibility="Hidden" Focusable="True"/>
+
+
+        <Views:Tile_view_T_junction Width="1200" Height="800" Grid.Column="1"
+                                    Margin="25,0,25,0"
+                                    Visibility="Hidden" Focusable="True"/>
+
+        <Views:Tile_view_straight Grid.Column="1"
+                                  Width="1200" Height="800"
+                                  Margin="25,0,25,0"
+                                  Visibility="Hidden" Focusable="True"/>
+
+
+
+    </Grid>
+</Window>

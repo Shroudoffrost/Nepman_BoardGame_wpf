@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Events>
+	<Outer_ring>
+		<Event>
+			<ID>0</ID>
+			<Name>Jail</Name>
+		</Event>
+
+		<Event>
+			<ID>3</ID>
+			<Name>Empty</Name>
+		</Event>
+
+		<Event>
+			<ID>8</ID>
+			<Name>Interest</Name>
+		</Event>
+
+		<Event>
+			<ID>10</ID>
+			<Name>Bonus</Name>
+		</Event>
+
+		<Event>
+			<ID>13</ID>
+			<Name>Interest</Name>
+		</Event>
+
+		<Event>
+			<ID>18</ID>
+			<Name>Gangsters</Name>
+		</Event>
+
+		<Event>
+			<ID>20</ID>
+			<Name>Teleport</Name>
+		</Event>
+
+		<Event>
+			<ID>23</ID>
+			<Name>Interest</Name>
+		</Event>
+
+		<Event>
+			<ID>28</ID>
+			<Name>Interest</Name>
+		</Event>
+
+		<Event>
+			<ID>30</ID>
+			<Name>Casino</Name>
+		</Event>
+
+		<Event>
+			<ID>33</ID>
+			<Name>Interest</Name>
+		</Event>
+
+		<Event>
+			<ID>38</ID>
+			<Name>Interest</Name>
+		</Event>
+		
+	</Outer_ring>
+
+	<Inner_ring>
+		<Event>
+			<ID>0</ID>
+			<Name>Poker</Name>
+		</Event>
+
+		<Event>
+			<ID>2</ID>
+			<Name>Bank of Europe</Name>
+		</Event>
+
+		<Event>
+			<ID>5</ID>
+			<Name>Safari</Name>
+		</Event>
+
+		<Event>
+			<ID>7</ID>
+			<Name>Bank of America</Name>
+		</Event>
+
+		<Event>
+			<ID>10</ID>
+			<Name>Poker</Name>
+		</Event>
+
+		<Event>
+			<ID>12</ID>
+			<Name>Cruise</Name>
+		</Event>
+
+		<Event>
+			<ID>17</ID>
+			<Name>Bank of Asia</Name>
+		</Event>
+		
+	</Inner_ring>
+
+	<East_way>
+		<Event>
+			<ID>0</ID>
+			<Name>Start</Name>
+		</Event>
+
+		<Event>
+			<ID>3</ID>
+			<Name>Transition</Name>
+		</Event>
+
+		<Event>
+			<ID>5</ID>
+			<Name>Transition</Name>
+		</Event>
+	</East_way>
+
+	<South_way>
+		<Event>
+			<ID>0</ID>
+			<Name>Start</Name>
+		</Event>
+
+		<Event>
+			<ID>3</ID>
+			<Name>Transition</Name>
+		</Event>
+
+		<Event>
+			<ID>5</ID>
+			<Name>Transition</Name>
+		</Event>
+	</South_way>
+
+	<West_way>
+		<Event>
+			<ID>0</ID>
+			<Name>Start</Name>
+		</Event>
+
+		<Event>
+			<ID>3</ID>
+			<Name>Transition</Name>
+		</Event>
+
+		<Event>
+			<ID>5</ID>
+			<Name>Transition</Name>
+		</Event>
+	</West_way>
+	
+	<North_way>
+		<Event>
+			<ID>0</ID>
+			<Name>Start</Name>
+		</Event>
+
+		<Event>
+			<ID>3</ID>
+			<Name>Transition</Name>
+		</Event>
+
+		<Event>
+			<ID>5</ID>
+			<Name>Transition</Name>
+		</Event>
+	</North_way>
+
+</Events>

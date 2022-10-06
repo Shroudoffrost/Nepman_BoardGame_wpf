@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <Product>Nepman_BoardGame</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Full_view.png" />
+    <None Remove="Views\Main_backgroud.png" />
+    <None Remove="Views\Main_menu.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Background\Full_view.png" />
+    <Resource Include="Views\Full_view.png" />
+    <Resource Include="Views\Main_backgroud.png" />
+    <Resource Include="Views\Main_menu.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
+</Project>

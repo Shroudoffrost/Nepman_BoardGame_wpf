@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Countries>
+	<Outer_ring>
+
+		<!-- North America -->
+		<Group name="North America">
+			<Country>
+				<ID>1</ID>
+				<Name>Canada</Name>
+				<Price_base>125000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>2</ID>
+				<Name>Mexico</Name>
+				<Price_base>75000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>4</ID>
+				<Name>Cuba</Name>
+				<Price_base>50000</Price_base>
+			</Country>
+		</Group>
+
+		<!-- Airport -->
+		<Group name="Airport">
+			<Country>
+				<ID>5</ID>
+				<Name>USA</Name>
+				<Price_base>25000</Price_base>
+			</Country>
+			<Country>
+				<ID>15</ID>
+				<Name>Australia</Name>
+				<Price_base>25000</Price_base>
+			</Country>
+			<Country>
+				<ID>25</ID>
+				<Name>Russia</Name>
+				<Price_base>25000</Price_base>
+			</Country>
+			<Country>
+				<ID>35</ID>
+				<Name>Singapore</Name>
+				<Price_base>25000</Price_base>
+			</Country>
+		</Group>
+
+		<!-- South America, Patagonia -->
+		<Group name="South America, Patagonia">
+			<Country>
+				<ID>6</ID>
+				<Name>Uruguay</Name>
+				<Price_base>50000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>7</ID>
+				<Name>Chile</Name>
+				<Price_base>50000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>12</ID>
+				<Name>Argentina</Name>
+				<Price_base>115000</Price_base>
+			</Country>
+		</Group>
+
+		<!-- South America, Amazonia -->
+		<Group name="South America, Amazonia">
+			<Country>
+				<ID>9</ID>
+				<Name>Venezuela</Name>
+				<Price_base>75000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>11</ID>
+				<Name>Brazil</Name>
+				<Price_base>125000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>14</ID>
+				<Name>Columbia</Name>
+				<Price_base>25000</Price_base>
+			</Country>
+		</Group>
+
+		<!-- Western Europe -->
+		<Group name="Western Europe">
+			<Country>
+				<ID>16</ID>
+				<Name>France</Name>
+				<Price_base>200000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>17</ID>
+				<Name>Spain</Name>
+				<Price_base>225000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>19</ID>
+				<Name>Italy</Name>
+				<Price_base>175000</Price_base>
+			</Country>
+		</Group>
+
+		<!-- Balkans -->
+		<Group name="Balkans">
+			<Country>
+				<ID>21</ID>
+				<Name>Greece</Name>
+				<Price_base>75000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>22</ID>
+				<Name>Yugoslavia</Name>
+				<Price_base>75000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>24</ID>
+				<Name>Bulgaria</Name>
+				<Price_base>25000</Price_base>
+			</Country>
+		</Group>
+
+		<!-- Central Europe -->
+		<Group name="Central Europe">
+			<Country>
+				<ID>26</ID>
+				<Name>Austria</Name>
+				<Price_base>175000</Price_base>
+			</Country>
+			
+			<Country>
+				<ID>27</ID>
+				<Name>Germany</Name>
+				<Price_base>300000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>29</ID>
+				<Name>United Kingdom</Name>
+				<Price_base>250000</Price_base>
+			</Country>
+		</Group>
+
+		<!-- Northern Europe -->
+		<Group name="Northern Europe">
+			<Country>
+				<ID>31</ID>
+				<Name>Finland</Name>
+				<Price_base>125000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>32</ID>
+				<Name>Sweden</Name>
+				<Price_base>100000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>34</ID>
+				<Name>Norway</Name>
+				<Price_base>150000</Price_base>
+			</Country>
+		</Group>
+
+		<!-- East Asia -->
+		<Group name="East Asia">
+			<Country>
+				<ID>36</ID>
+				<Name>South Korea</Name>
+				<Price_base>125000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>37</ID>
+				<Name>Japan</Name>
+				<Price_base>115000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>39</ID>
+				<Name>China</Name>
+				<Price_base>135000</Price_base>
+			</Country>
+		</Group>
+	</Outer_ring>
+
+	<Inner_ring>
+		<!-- Antactica -->
+		<Group name="Antactica">
+			<Country>
+				<ID>1</ID>
+				<Name>Antactica</Name>
+				<Price_base>0</Price_base>
+			</Country>
+		</Group>
+		
+		<!-- Northern Africa -->
+		<Group name="Northern Africa">
+			<Country>
+				<ID>3</ID>
+				<Name>Morocco</Name>
+				<Price_base>50000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>4</ID>
+				<Name>Algeria</Name>
+				<Price_base>75000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>6</ID>
+				<Name>Egypt</Name>
+				<Price_base>50000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>8</ID>
+				<Name>Tunisia</Name>
+				<Price_base>50000</Price_base>
+			</Country>
+		</Group>
+
+		<!-- Central Africa -->
+		<Group name="Central Africa">
+			<Country>
+				<ID>9</ID>
+				<Name>Congo</Name>
+				<Price_base>75000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>11</ID>
+				<Name>Zambia</Name>
+				<Price_base>75000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>13</ID>
+				<Name>Kenya</Name>
+				<Price_base>50000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>14</ID>
+				<Name>Tanzania</Name>
+				<Price_base>50000</Price_base>
+			</Country>
+		</Group>
+
+		<!-- South Africa -->
+		<Group name="South Africa">
+			<Country>
+				<ID>15</ID>
+				<Name>
+				Angola</Name>
+				<Price_base>25000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>16</ID>
+				<Name>South Africa</Name>
+				<Price_base>75000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>18</ID>
+				<Name>Mozambique</Name>
+				<Price_base>25000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>19</ID>
+				<Name>Madagascar</Name>
+				<Price_base>25000</Price_base>
+			</Country>
+		</Group>
+	</Inner_ring>
+
+	<East_way>
+		<!-- South Asia -->
+		<Group name="South Asia">
+			<Country>
+				<ID>1</ID>
+				<Name>Pakistan</Name>
+				<Price_base>50000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>2</ID>
+				<Name>Nepal</Name>
+				<Price_base>75000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>4</ID>
+				<Name>India</Name>
+				<Price_base>50000</Price_base>
+			</Country>
+		</Group>
+	</East_way>
+
+	<South_way>
+		<!-- Near East -->
+		<Group name="Near East">
+			<Country>
+				<ID>1</ID>
+				<Name>Saudi Arabia</Name>
+				<Price_base>50000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>2</ID>
+				<Name>UAE</Name>
+				<Price_base>125000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>4</ID>
+				<Name>Israel</Name>
+				<Price_base>75000</Price_base>
+			</Country>
+		</Group>
+	</South_way>
+
+	<West_way>
+		<!-- Indochina -->
+		<Group name="Indochina">
+			<Country>
+				<ID>1</ID>
+				<Name>Thailand</Name>
+				<Price_base>50000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>2</ID>
+				<Name>Vietnam</Name>
+				<Price_base>75000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>4</ID>
+				<Name>Indonesia</Name>
+				<Price_base>50000</Price_base>
+			</Country>
+		</Group>
+	</West_way>
+
+	<Morth_way>
+		<!-- Western_Asia -->
+		<Group name="Indochina">
+			<Country>
+				<ID>1</ID>
+				<Name>Iraq</Name>
+				<Price_base>50000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>2</ID>
+				<Name>Iran</Name>
+				<Price_base>75000</Price_base>
+			</Country>
+
+			<Country>
+				<ID>4</ID>
+				<Name>Turkey</Name>
+				<Price_base>100000</Price_base>
+			</Country>
+		</Group>
+	</Morth_way>
+</Countries>
